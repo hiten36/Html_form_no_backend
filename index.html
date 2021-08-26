@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="main">
+        <form action="https://formspree.io/f/xzbyknab" method="POST" id="my-form" class="box">
+            <div class="inp">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="fname">
+            </div>
+            <div class="inp">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname">
+            </div>
+            <div class="inp">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email">
+            </div>
+            <div class="inp">
+                <label for="msg">Message</label>
+                <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+        <div id="my-form-status"></div>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
